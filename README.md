@@ -1,5 +1,5 @@
 # Weather-forecast
- Features
+ Features:
  Search Weather by city name
  Current Location Weather using Geolocation
  5-Day Forecast with daily weather cards
