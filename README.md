@@ -1,5 +1,6 @@
 # Weather-forecast
 A responsive web application that displays current and forecasted weather data using OpenWeatherMap API.
+ 
  Features:
  Search Weather by city name
  Current Location Weather using Geolocation
