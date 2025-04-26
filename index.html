@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather Forecast Dashboard</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet" />
+        <link rel="icon" type="image/png" href="favicon.png">
+        <script defer src="app.js"></script>
+      </head>
+      
+<body>
+      
+<div class="container">
+    <div class="sidebar">
+        <h2>🌤️ Weather Forecast</h2>
+        <input type="text" id="cityInput" placeholder="Enter City">
+        <button id="searchBtn">Search</button>
+        <button id="locationBtn">📍 Current Location</button>
+        <select id="recentSearches">
+            <option disabled selected>Recently Searched</option>
+        </select>
+    </div>
+    <div class="main">
+        <div id="loading" class="loading" style="display: none;">
+            <img src="https://cdn-icons-png.flaticon.com/512/869/869869.png" alt="Loading" class="spinner" />
+            <p>Fetching weather data...</p>
+          </div>
+          
+          
+        <div id="currentWeather">
+            <h2>City Name</h2>
+            <p>Temperature: 0°C</p>
+            <p>Condition: Clear</p>
+            <p>Humidity: %</p>
+            <p> Wind: m/s</p>
+        </div>
+        <div id="forecastCards"></div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
